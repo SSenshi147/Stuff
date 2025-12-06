@@ -6,5 +6,9 @@ namespace WebApplication1.Controllers;
 [Route("[controller]")]
 public class WeatherForecastController : ControllerBase
 {
-    
+    [HttpGet]
+    public string Asd()
+    {
+        return "HI";
+    }
 }
