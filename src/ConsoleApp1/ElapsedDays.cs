@@ -5,7 +5,7 @@
 /// </summary>
 public static class ElapsedDays
 {
-    public static void Main(DateTime end, DateTime begin)
+    public static void Do(DateTime end, DateTime begin)
     {
         Console.WriteLine((end - begin).Days);
     }

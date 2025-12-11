@@ -5,7 +5,7 @@
 /// </summary>
 public static class InterviewStuff
 {
-    public static void Main()
+    public static void Do()
     {
         Console.WriteLine(solution(new int[] { 1, 1 }, new int[] { 12223, 4 }));
         Console.WriteLine(solution(new int[] { 3, 2, 1 }, new int[] { 1, 2, 1, 32, 41 }));

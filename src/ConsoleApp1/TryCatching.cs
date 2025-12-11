@@ -4,7 +4,7 @@ public static class TryCatching
 {
     static bool doThrow = false;
 
-    public static void Main(bool doThrow)
+    public static void Do(bool doThrow)
     {
         TryCatching.doThrow = doThrow;
         With();

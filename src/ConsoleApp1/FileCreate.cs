@@ -2,7 +2,7 @@
 
 public static class FileCreate
 {
-    public static void Create()
+    public static void Do()
     {
         const string path = "out.txt";
         if (!File.Exists(path))

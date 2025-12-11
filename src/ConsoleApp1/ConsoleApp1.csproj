@@ -7,4 +7,14 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <None Remove="AdventOfCode2025\01.txt" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="AdventOfCode2025\01.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+
 </Project>
