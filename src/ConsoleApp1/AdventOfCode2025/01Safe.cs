@@ -23,8 +23,8 @@ public static class _01Safe
 
             Console.WriteLine(currentIndex);
 
-            if (currentIndex == 0)
-                code++;
+            //if (currentIndex == 0)
+            //    code++;
         }
     }
 
@@ -33,8 +33,12 @@ public static class _01Safe
         for (int i = 0; i < x; i++)
         {
             currentIndex--;
+
             if (currentIndex == -1)
+            {
                 currentIndex = 99;
+                code++;
+            }
         }
     }
 
@@ -44,7 +48,10 @@ public static class _01Safe
         {
             currentIndex++;
             if (currentIndex == 100)
+            {
                 currentIndex = 0;
+                code++;
+            }
         }
     }
 }
